@@ -11,10 +11,35 @@
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 offset-3">
         <h1 class="display-4 text-center">Weight Convertor</h1>
-        <div class="form-group">
-          <input id=lbsInput type="number" class="form-control form-control-lg" placeholder="Enter Pounds...">
+        <form>
+          <div class="form-group">
+            <input id=lbsInput type="number" class="form-control form-control-lg" placeholder="Enter Pounds...">
+          </div>
+        </form>
+        <div id="output">
+          <div class="card">
+            <div class="card-body">
+              <h4>Grams:</h4>
+              <div id="gramsOutput"></div>
+            </div>  
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h4>Kilograms:</h4>
+              <div id="kgOutput"></div>
+            </div>  
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h4>Ounces:</h4>
+              <div id="ozOutput"></div>
+            </div>  
+          </div>
+
         </div>
       </div>
     </div>
